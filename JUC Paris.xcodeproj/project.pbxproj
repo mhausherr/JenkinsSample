@@ -1,0 +1,792 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		51EE1EF2152C9FBC0040C217 /* AppleDoc */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 51EE1EF3152C9FBC0040C217 /* Build configuration list for PBXAggregateTarget "AppleDoc" */;
+			buildPhases = (
+				51EE1EF6152C9FC80040C217 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = AppleDoc;
+			productName = AppleDoc;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		51077CAD152F290200B65D5D /* JUCRoomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51077CAC152F290200B65D5D /* JUCRoomTests.m */; };
+		51077CB0152F2C6400B65D5D /* JUCEventTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51077CAF152F2C6400B65D5D /* JUCEventTests.m */; };
+		51077CB3152F2CB700B65D5D /* JUCObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51077CB2152F2CB700B65D5D /* JUCObjectTests.m */; };
+		512FD6CC151928A5007D8264 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512FD6CB151928A5007D8264 /* UIKit.framework */; };
+		512FD6CE151928A5007D8264 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512FD6CD151928A5007D8264 /* Foundation.framework */; };
+		512FD6D0151928A5007D8264 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512FD6CF151928A5007D8264 /* CoreGraphics.framework */; };
+		512FD6D6151928A5007D8264 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 512FD6D4151928A5007D8264 /* InfoPlist.strings */; };
+		512FD6D8151928A5007D8264 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 512FD6D7151928A5007D8264 /* main.m */; };
+		512FD6DC151928A5007D8264 /* JUCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 512FD6DB151928A5007D8264 /* JUCAppDelegate.m */; };
+		512FD6E2151928A5007D8264 /* JUCConferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 512FD6E1151928A5007D8264 /* JUCConferenceViewController.m */; };
+		512FD6E5151928A5007D8264 /* JUCEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 512FD6E4151928A5007D8264 /* JUCEventViewController.m */; };
+		512FD6ED151928A5007D8264 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512FD6EC151928A5007D8264 /* SenTestingKit.framework */; };
+		512FD6EE151928A5007D8264 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512FD6CB151928A5007D8264 /* UIKit.framework */; };
+		512FD6EF151928A5007D8264 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512FD6CD151928A5007D8264 /* Foundation.framework */; };
+		512FD6F7151928A5007D8264 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 512FD6F5151928A5007D8264 /* InfoPlist.strings */; };
+		512FD6FA151928A5007D8264 /* JUC_ParisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 512FD6F9151928A5007D8264 /* JUC_ParisTests.m */; };
+		517C3D9815299DB600B26ACA /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 517C3D8415299DB600B26ACA /* AFHTTPClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		517C3D9915299DB600B26ACA /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 517C3D8615299DB600B26ACA /* AFHTTPRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		517C3D9A15299DB600B26ACA /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 517C3D8815299DB600B26ACA /* AFImageRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		517C3D9B15299DB600B26ACA /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 517C3D8A15299DB600B26ACA /* AFJSONRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		517C3D9C15299DB600B26ACA /* AFJSONUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 517C3D8C15299DB600B26ACA /* AFJSONUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		517C3D9D15299DB600B26ACA /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 517C3D8E15299DB600B26ACA /* AFNetworkActivityIndicatorManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		517C3D9E15299DB600B26ACA /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 517C3D9115299DB600B26ACA /* AFPropertyListRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		517C3D9F15299DB600B26ACA /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 517C3D9315299DB600B26ACA /* AFURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		517C3DA015299DB600B26ACA /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 517C3D9515299DB600B26ACA /* AFXMLRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		517C3DA115299DB600B26ACA /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 517C3D9715299DB600B26ACA /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		517C3DA915299F4A00B26ACA /* JUCStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 517C3DA815299F4A00B26ACA /* JUCStoryboard.storyboard */; };
+		517C3DAE1529A31700B26ACA /* JUCEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 517C3DAD1529A31700B26ACA /* JUCEvent.m */; };
+		517C3DB11529A34200B26ACA /* JUCEventsService.m in Sources */ = {isa = PBXBuildFile; fileRef = 517C3DB01529A34200B26ACA /* JUCEventsService.m */; };
+		517C3DB41529A54D00B26ACA /* JUCHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 517C3DB31529A54D00B26ACA /* JUCHTTPClient.m */; };
+		517C3DB71529A5E800B26ACA /* JUCURLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 517C3DB61529A5E800B26ACA /* JUCURLHelper.m */; };
+		517C3DBF1529B48500B26ACA /* JUCJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 517C3DBE1529B48500B26ACA /* JUCJSONRequestOperation.m */; };
+		517C3DC41529C86400B26ACA /* JUCRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 517C3DC31529C86400B26ACA /* JUCRoom.m */; };
+		517C3DC71529C90500B26ACA /* JUCObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 517C3DC61529C90500B26ACA /* JUCObject.m */; };
+		517C3DCC1529DE0100B26ACA /* NSString+Indentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 517C3DCB1529DE0100B26ACA /* NSString+Indentation.m */; };
+		517C3DCF1529E9BF00B26ACA /* JUCRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 517C3DCE1529E9BF00B26ACA /* JUCRoomViewController.m */; };
+		517C3DD21529FCFE00B26ACA /* UILabel+AutosizeHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 517C3DD01529FCFE00B26ACA /* UILabel+AutosizeHeight.m */; };
+		517C3DD9152A06E500B26ACA /* fr.png in Resources */ = {isa = PBXBuildFile; fileRef = 517C3DD8152A06E500B26ACA /* fr.png */; };
+		517C3DE4152A0ACB00B26ACA /* en.png in Resources */ = {isa = PBXBuildFile; fileRef = 517C3DE3152A0ACB00B26ACA /* en.png */; };
+		517C3DEC152A160400B26ACA /* JUCConferenceViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 517C3DEB152A160400B26ACA /* JUCConferenceViewControllerTests.m */; };
+		51EE1ED5152C506A0040C217 /* JUCEventServiceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 51EE1ED4152C506A0040C217 /* JUCEventServiceTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		512FD6F0151928A5007D8264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 512FD6BE151928A5007D8264 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 512FD6C6151928A5007D8264;
+			remoteInfo = "JUC Paris";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		51077CAB152F290200B65D5D /* JUCRoomTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUCRoomTests.h; sourceTree = "<group>"; };
+		51077CAC152F290200B65D5D /* JUCRoomTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUCRoomTests.m; sourceTree = "<group>"; };
+		51077CAE152F2C6400B65D5D /* JUCEventTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUCEventTests.h; sourceTree = "<group>"; };
+		51077CAF152F2C6400B65D5D /* JUCEventTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUCEventTests.m; sourceTree = "<group>"; };
+		51077CB1152F2CB700B65D5D /* JUCObjectTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUCObjectTests.h; sourceTree = "<group>"; };
+		51077CB2152F2CB700B65D5D /* JUCObjectTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUCObjectTests.m; sourceTree = "<group>"; };
+		512FD6C7151928A5007D8264 /* JUC Paris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JUC Paris.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		512FD6CB151928A5007D8264 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		512FD6CD151928A5007D8264 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		512FD6CF151928A5007D8264 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		512FD6D3151928A5007D8264 /* JUC Paris-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JUC Paris-Info.plist"; sourceTree = "<group>"; };
+		512FD6D5151928A5007D8264 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		512FD6D7151928A5007D8264 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		512FD6D9151928A5007D8264 /* JUC Paris-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JUC Paris-Prefix.pch"; sourceTree = "<group>"; };
+		512FD6DA151928A5007D8264 /* JUCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JUCAppDelegate.h; sourceTree = "<group>"; };
+		512FD6DB151928A5007D8264 /* JUCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JUCAppDelegate.m; sourceTree = "<group>"; };
+		512FD6E0151928A5007D8264 /* JUCConferenceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JUCConferenceViewController.h; sourceTree = "<group>"; };
+		512FD6E1151928A5007D8264 /* JUCConferenceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JUCConferenceViewController.m; sourceTree = "<group>"; };
+		512FD6E3151928A5007D8264 /* JUCEventViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JUCEventViewController.h; sourceTree = "<group>"; };
+		512FD6E4151928A5007D8264 /* JUCEventViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = JUCEventViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		512FD6EB151928A5007D8264 /* JUC ParisTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JUC ParisTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		512FD6EC151928A5007D8264 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		512FD6F4151928A5007D8264 /* JUC ParisTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JUC ParisTests-Info.plist"; sourceTree = "<group>"; };
+		512FD6F6151928A5007D8264 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		512FD6F8151928A5007D8264 /* JUC_ParisTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JUC_ParisTests.h; sourceTree = "<group>"; };
+		512FD6F9151928A5007D8264 /* JUC_ParisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JUC_ParisTests.m; sourceTree = "<group>"; };
+		517C3D8315299DB600B26ACA /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		517C3D8415299DB600B26ACA /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		517C3D8515299DB600B26ACA /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		517C3D8615299DB600B26ACA /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		517C3D8715299DB600B26ACA /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		517C3D8815299DB600B26ACA /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		517C3D8915299DB600B26ACA /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		517C3D8A15299DB600B26ACA /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		517C3D8B15299DB600B26ACA /* AFJSONUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONUtilities.h; sourceTree = "<group>"; };
+		517C3D8C15299DB600B26ACA /* AFJSONUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONUtilities.m; sourceTree = "<group>"; };
+		517C3D8D15299DB600B26ACA /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		517C3D8E15299DB600B26ACA /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		517C3D8F15299DB600B26ACA /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		517C3D9015299DB600B26ACA /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		517C3D9115299DB600B26ACA /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		517C3D9215299DB600B26ACA /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		517C3D9315299DB600B26ACA /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		517C3D9415299DB600B26ACA /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		517C3D9515299DB600B26ACA /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		517C3D9615299DB600B26ACA /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		517C3D9715299DB600B26ACA /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		517C3DA815299F4A00B26ACA /* JUCStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = JUCStoryboard.storyboard; sourceTree = "<group>"; };
+		517C3DAC1529A31700B26ACA /* JUCEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUCEvent.h; sourceTree = "<group>"; };
+		517C3DAD1529A31700B26ACA /* JUCEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUCEvent.m; sourceTree = "<group>"; };
+		517C3DAF1529A34200B26ACA /* JUCEventsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUCEventsService.h; sourceTree = "<group>"; };
+		517C3DB01529A34200B26ACA /* JUCEventsService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUCEventsService.m; sourceTree = "<group>"; };
+		517C3DB21529A54D00B26ACA /* JUCHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUCHTTPClient.h; sourceTree = "<group>"; };
+		517C3DB31529A54D00B26ACA /* JUCHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUCHTTPClient.m; sourceTree = "<group>"; };
+		517C3DB51529A5E800B26ACA /* JUCURLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUCURLHelper.h; sourceTree = "<group>"; };
+		517C3DB61529A5E800B26ACA /* JUCURLHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUCURLHelper.m; sourceTree = "<group>"; };
+		517C3DB81529ABD300B26ACA /* CustomMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomMacros.h; sourceTree = "<group>"; };
+		517C3DBD1529B48500B26ACA /* JUCJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUCJSONRequestOperation.h; sourceTree = "<group>"; };
+		517C3DBE1529B48500B26ACA /* JUCJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUCJSONRequestOperation.m; sourceTree = "<group>"; };
+		517C3DC21529C86400B26ACA /* JUCRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUCRoom.h; sourceTree = "<group>"; };
+		517C3DC31529C86400B26ACA /* JUCRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUCRoom.m; sourceTree = "<group>"; };
+		517C3DC51529C90500B26ACA /* JUCObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUCObject.h; sourceTree = "<group>"; };
+		517C3DC61529C90500B26ACA /* JUCObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUCObject.m; sourceTree = "<group>"; };
+		517C3DCA1529DE0100B26ACA /* NSString+Indentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Indentation.h"; sourceTree = "<group>"; };
+		517C3DCB1529DE0100B26ACA /* NSString+Indentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Indentation.m"; sourceTree = "<group>"; };
+		517C3DCD1529E9BF00B26ACA /* JUCRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUCRoomViewController.h; sourceTree = "<group>"; };
+		517C3DCE1529E9BF00B26ACA /* JUCRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUCRoomViewController.m; sourceTree = "<group>"; };
+		517C3DD01529FCFE00B26ACA /* UILabel+AutosizeHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AutosizeHeight.m"; sourceTree = "<group>"; };
+		517C3DD11529FCFE00B26ACA /* UILabel+AutosizeHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+AutosizeHeight.h"; sourceTree = "<group>"; };
+		517C3DD8152A06E500B26ACA /* fr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fr.png; sourceTree = "<group>"; };
+		517C3DE3152A0ACB00B26ACA /* en.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = en.png; sourceTree = "<group>"; };
+		517C3DEA152A160400B26ACA /* JUCConferenceViewControllerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUCConferenceViewControllerTests.h; sourceTree = "<group>"; };
+		517C3DEB152A160400B26ACA /* JUCConferenceViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUCConferenceViewControllerTests.m; sourceTree = "<group>"; };
+		517C3DF0152A185700B26ACA /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSNotificationCenter+OCMAdditions.h"; path = "Headers/OCMock/NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		517C3DF1152A185700B26ACA /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCMArg.h; path = Headers/OCMock/OCMArg.h; sourceTree = "<group>"; };
+		517C3DF2152A185700B26ACA /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCMConstraint.h; path = Headers/OCMock/OCMConstraint.h; sourceTree = "<group>"; };
+		517C3DF3152A185700B26ACA /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCMock.h; path = Headers/OCMock/OCMock.h; sourceTree = "<group>"; };
+		517C3DF4152A185700B26ACA /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCMockObject.h; path = Headers/OCMock/OCMockObject.h; sourceTree = "<group>"; };
+		517C3DF5152A185700B26ACA /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCMockRecorder.h; path = Headers/OCMock/OCMockRecorder.h; sourceTree = "<group>"; };
+		517C3DF6152A185700B26ACA /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
+		51EE1ED3152C506A0040C217 /* JUCEventServiceTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUCEventServiceTest.h; sourceTree = "<group>"; };
+		51EE1ED4152C506A0040C217 /* JUCEventServiceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUCEventServiceTest.m; sourceTree = "<group>"; };
+		51EE1EF1152C9F6A0040C217 /* AppledocSettings.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AppledocSettings.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		512FD6C4151928A5007D8264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512FD6CC151928A5007D8264 /* UIKit.framework in Frameworks */,
+				512FD6CE151928A5007D8264 /* Foundation.framework in Frameworks */,
+				512FD6D0151928A5007D8264 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512FD6E7151928A5007D8264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512FD6ED151928A5007D8264 /* SenTestingKit.framework in Frameworks */,
+				512FD6EE151928A5007D8264 /* UIKit.framework in Frameworks */,
+				512FD6EF151928A5007D8264 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51077CAA152F28D600B65D5D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				51077CB1152F2CB700B65D5D /* JUCObjectTests.h */,
+				51077CB2152F2CB700B65D5D /* JUCObjectTests.m */,
+				51077CAB152F290200B65D5D /* JUCRoomTests.h */,
+				51077CAC152F290200B65D5D /* JUCRoomTests.m */,
+				51077CAE152F2C6400B65D5D /* JUCEventTests.h */,
+				51077CAF152F2C6400B65D5D /* JUCEventTests.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		512FD6BC151928A5007D8264 = {
+			isa = PBXGroup;
+			children = (
+				517C3D811529940700B26ACA /* External */,
+				512FD6D1151928A5007D8264 /* JUC Paris */,
+				512FD6F2151928A5007D8264 /* JUC ParisTests */,
+				512FD6CA151928A5007D8264 /* Frameworks */,
+				512FD6C8151928A5007D8264 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		512FD6C8151928A5007D8264 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				512FD6C7151928A5007D8264 /* JUC Paris.app */,
+				512FD6EB151928A5007D8264 /* JUC ParisTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		512FD6CA151928A5007D8264 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				512FD6CB151928A5007D8264 /* UIKit.framework */,
+				512FD6CD151928A5007D8264 /* Foundation.framework */,
+				512FD6CF151928A5007D8264 /* CoreGraphics.framework */,
+				512FD6EC151928A5007D8264 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		512FD6D1151928A5007D8264 /* JUC Paris */ = {
+			isa = PBXGroup;
+			children = (
+				512FD6DA151928A5007D8264 /* JUCAppDelegate.h */,
+				512FD6DB151928A5007D8264 /* JUCAppDelegate.m */,
+				517C3D80152993AB00B26ACA /* Controllers */,
+				517C3DA215299DC000B26ACA /* Services */,
+				517C3DAA1529A1DA00B26ACA /* Model */,
+				512FD6D2151928A5007D8264 /* Supporting Files */,
+				517C3DC81529DDAD00B26ACA /* Utils */,
+				517C3DD7152A069900B26ACA /* Ressources */,
+			);
+			path = "JUC Paris";
+			sourceTree = "<group>";
+		};
+		512FD6D2151928A5007D8264 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				512FD6D3151928A5007D8264 /* JUC Paris-Info.plist */,
+				512FD6D4151928A5007D8264 /* InfoPlist.strings */,
+				512FD6D7151928A5007D8264 /* main.m */,
+				512FD6D9151928A5007D8264 /* JUC Paris-Prefix.pch */,
+				517C3DB81529ABD300B26ACA /* CustomMacros.h */,
+				51EE1EF1152C9F6A0040C217 /* AppledocSettings.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		512FD6F2151928A5007D8264 /* JUC ParisTests */ = {
+			isa = PBXGroup;
+			children = (
+				517C3DE9152A158200B26ACA /* Controllers */,
+				51EE1ED1152C502B0040C217 /* Services */,
+				51077CAA152F28D600B65D5D /* Model */,
+				512FD6F8151928A5007D8264 /* JUC_ParisTests.h */,
+				512FD6F9151928A5007D8264 /* JUC_ParisTests.m */,
+				512FD6F3151928A5007D8264 /* Supporting Files */,
+			);
+			path = "JUC ParisTests";
+			sourceTree = "<group>";
+		};
+		512FD6F3151928A5007D8264 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				512FD6F4151928A5007D8264 /* JUC ParisTests-Info.plist */,
+				512FD6F5151928A5007D8264 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		517C3D80152993AB00B26ACA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				517C3DA815299F4A00B26ACA /* JUCStoryboard.storyboard */,
+				512FD6E0151928A5007D8264 /* JUCConferenceViewController.h */,
+				512FD6E1151928A5007D8264 /* JUCConferenceViewController.m */,
+				517C3DCD1529E9BF00B26ACA /* JUCRoomViewController.h */,
+				517C3DCE1529E9BF00B26ACA /* JUCRoomViewController.m */,
+				512FD6E3151928A5007D8264 /* JUCEventViewController.h */,
+				512FD6E4151928A5007D8264 /* JUCEventViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		517C3D811529940700B26ACA /* External */ = {
+			isa = PBXGroup;
+			children = (
+				517C3DED152A185700B26ACA /* OCMock */,
+				517C3D8215299DB600B26ACA /* AFNetworking */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		517C3D8215299DB600B26ACA /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				517C3D8315299DB600B26ACA /* AFHTTPClient.h */,
+				517C3D8415299DB600B26ACA /* AFHTTPClient.m */,
+				517C3D8515299DB600B26ACA /* AFHTTPRequestOperation.h */,
+				517C3D8615299DB600B26ACA /* AFHTTPRequestOperation.m */,
+				517C3D8715299DB600B26ACA /* AFImageRequestOperation.h */,
+				517C3D8815299DB600B26ACA /* AFImageRequestOperation.m */,
+				517C3D8915299DB600B26ACA /* AFJSONRequestOperation.h */,
+				517C3D8A15299DB600B26ACA /* AFJSONRequestOperation.m */,
+				517C3D8B15299DB600B26ACA /* AFJSONUtilities.h */,
+				517C3D8C15299DB600B26ACA /* AFJSONUtilities.m */,
+				517C3D8D15299DB600B26ACA /* AFNetworkActivityIndicatorManager.h */,
+				517C3D8E15299DB600B26ACA /* AFNetworkActivityIndicatorManager.m */,
+				517C3D8F15299DB600B26ACA /* AFNetworking.h */,
+				517C3D9015299DB600B26ACA /* AFPropertyListRequestOperation.h */,
+				517C3D9115299DB600B26ACA /* AFPropertyListRequestOperation.m */,
+				517C3D9215299DB600B26ACA /* AFURLConnectionOperation.h */,
+				517C3D9315299DB600B26ACA /* AFURLConnectionOperation.m */,
+				517C3D9415299DB600B26ACA /* AFXMLRequestOperation.h */,
+				517C3D9515299DB600B26ACA /* AFXMLRequestOperation.m */,
+				517C3D9615299DB600B26ACA /* UIImageView+AFNetworking.h */,
+				517C3D9715299DB600B26ACA /* UIImageView+AFNetworking.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		517C3DA215299DC000B26ACA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				517C3DC11529B49400B26ACA /* AFNetworking Utils */,
+				517C3DAF1529A34200B26ACA /* JUCEventsService.h */,
+				517C3DB01529A34200B26ACA /* JUCEventsService.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		517C3DAA1529A1DA00B26ACA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				517C3DC51529C90500B26ACA /* JUCObject.h */,
+				517C3DC61529C90500B26ACA /* JUCObject.m */,
+				517C3DC21529C86400B26ACA /* JUCRoom.h */,
+				517C3DC31529C86400B26ACA /* JUCRoom.m */,
+				517C3DAC1529A31700B26ACA /* JUCEvent.h */,
+				517C3DAD1529A31700B26ACA /* JUCEvent.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		517C3DC11529B49400B26ACA /* AFNetworking Utils */ = {
+			isa = PBXGroup;
+			children = (
+				517C3DB21529A54D00B26ACA /* JUCHTTPClient.h */,
+				517C3DB31529A54D00B26ACA /* JUCHTTPClient.m */,
+				517C3DB51529A5E800B26ACA /* JUCURLHelper.h */,
+				517C3DB61529A5E800B26ACA /* JUCURLHelper.m */,
+				517C3DBD1529B48500B26ACA /* JUCJSONRequestOperation.h */,
+				517C3DBE1529B48500B26ACA /* JUCJSONRequestOperation.m */,
+			);
+			path = "AFNetworking Utils";
+			sourceTree = "<group>";
+		};
+		517C3DC81529DDAD00B26ACA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				517C3DCA1529DE0100B26ACA /* NSString+Indentation.h */,
+				517C3DCB1529DE0100B26ACA /* NSString+Indentation.m */,
+				517C3DD11529FCFE00B26ACA /* UILabel+AutosizeHeight.h */,
+				517C3DD01529FCFE00B26ACA /* UILabel+AutosizeHeight.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		517C3DD7152A069900B26ACA /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				517C3DE3152A0ACB00B26ACA /* en.png */,
+				517C3DD8152A06E500B26ACA /* fr.png */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		517C3DE9152A158200B26ACA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				517C3DEA152A160400B26ACA /* JUCConferenceViewControllerTests.h */,
+				517C3DEB152A160400B26ACA /* JUCConferenceViewControllerTests.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		517C3DED152A185700B26ACA /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				517C3DF0152A185700B26ACA /* NSNotificationCenter+OCMAdditions.h */,
+				517C3DF1152A185700B26ACA /* OCMArg.h */,
+				517C3DF2152A185700B26ACA /* OCMConstraint.h */,
+				517C3DF3152A185700B26ACA /* OCMock.h */,
+				517C3DF4152A185700B26ACA /* OCMockObject.h */,
+				517C3DF5152A185700B26ACA /* OCMockRecorder.h */,
+				517C3DF6152A185700B26ACA /* libOCMock.a */,
+			);
+			path = OCMock;
+			sourceTree = "<group>";
+		};
+		51EE1ED1152C502B0040C217 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				51EE1ED3152C506A0040C217 /* JUCEventServiceTest.h */,
+				51EE1ED4152C506A0040C217 /* JUCEventServiceTest.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		512FD6C6151928A5007D8264 /* JUC Paris */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 512FD6FD151928A5007D8264 /* Build configuration list for PBXNativeTarget "JUC Paris" */;
+			buildPhases = (
+				512FD6C3151928A5007D8264 /* Sources */,
+				512FD6C4151928A5007D8264 /* Frameworks */,
+				512FD6C5151928A5007D8264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JUC Paris";
+			productName = "JUC Paris";
+			productReference = 512FD6C7151928A5007D8264 /* JUC Paris.app */;
+			productType = "com.apple.product-type.application";
+		};
+		512FD6EA151928A5007D8264 /* JUC ParisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 512FD700151928A5007D8264 /* Build configuration list for PBXNativeTarget "JUC ParisTests" */;
+			buildPhases = (
+				512FD6E6151928A5007D8264 /* Sources */,
+				512FD6E7151928A5007D8264 /* Frameworks */,
+				512FD6E8151928A5007D8264 /* Resources */,
+				512FD6E9151928A5007D8264 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				512FD6F1151928A5007D8264 /* PBXTargetDependency */,
+			);
+			name = "JUC ParisTests";
+			productName = "JUC ParisTests";
+			productReference = 512FD6EB151928A5007D8264 /* JUC ParisTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		512FD6BE151928A5007D8264 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Octo Technology";
+			};
+			buildConfigurationList = 512FD6C1151928A5007D8264 /* Build configuration list for PBXProject "JUC Paris" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 512FD6BC151928A5007D8264;
+			productRefGroup = 512FD6C8151928A5007D8264 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				512FD6C6151928A5007D8264 /* JUC Paris */,
+				512FD6EA151928A5007D8264 /* JUC ParisTests */,
+				51EE1EF2152C9FBC0040C217 /* AppleDoc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		512FD6C5151928A5007D8264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512FD6D6151928A5007D8264 /* InfoPlist.strings in Resources */,
+				517C3DA915299F4A00B26ACA /* JUCStoryboard.storyboard in Resources */,
+				517C3DD9152A06E500B26ACA /* fr.png in Resources */,
+				517C3DE4152A0ACB00B26ACA /* en.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512FD6E8151928A5007D8264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512FD6F7151928A5007D8264 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		512FD6E9151928A5007D8264 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		51EE1EF6152C9FC80040C217 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Build an Xcode documentation\n/usr/local/bin/appledoc \"$SOURCE_ROOT/JUC Paris/Supporting Files/AppledocSettings.plist\" \"$SOURCE_ROOT/JUC Paris\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		512FD6C3151928A5007D8264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512FD6D8151928A5007D8264 /* main.m in Sources */,
+				512FD6DC151928A5007D8264 /* JUCAppDelegate.m in Sources */,
+				512FD6E2151928A5007D8264 /* JUCConferenceViewController.m in Sources */,
+				512FD6E5151928A5007D8264 /* JUCEventViewController.m in Sources */,
+				517C3D9815299DB600B26ACA /* AFHTTPClient.m in Sources */,
+				517C3D9915299DB600B26ACA /* AFHTTPRequestOperation.m in Sources */,
+				517C3D9A15299DB600B26ACA /* AFImageRequestOperation.m in Sources */,
+				517C3D9B15299DB600B26ACA /* AFJSONRequestOperation.m in Sources */,
+				517C3D9C15299DB600B26ACA /* AFJSONUtilities.m in Sources */,
+				517C3D9D15299DB600B26ACA /* AFNetworkActivityIndicatorManager.m in Sources */,
+				517C3D9E15299DB600B26ACA /* AFPropertyListRequestOperation.m in Sources */,
+				517C3D9F15299DB600B26ACA /* AFURLConnectionOperation.m in Sources */,
+				517C3DA015299DB600B26ACA /* AFXMLRequestOperation.m in Sources */,
+				517C3DA115299DB600B26ACA /* UIImageView+AFNetworking.m in Sources */,
+				517C3DAE1529A31700B26ACA /* JUCEvent.m in Sources */,
+				517C3DB11529A34200B26ACA /* JUCEventsService.m in Sources */,
+				517C3DB41529A54D00B26ACA /* JUCHTTPClient.m in Sources */,
+				517C3DB71529A5E800B26ACA /* JUCURLHelper.m in Sources */,
+				517C3DBF1529B48500B26ACA /* JUCJSONRequestOperation.m in Sources */,
+				517C3DC41529C86400B26ACA /* JUCRoom.m in Sources */,
+				517C3DC71529C90500B26ACA /* JUCObject.m in Sources */,
+				517C3DCC1529DE0100B26ACA /* NSString+Indentation.m in Sources */,
+				517C3DCF1529E9BF00B26ACA /* JUCRoomViewController.m in Sources */,
+				517C3DD21529FCFE00B26ACA /* UILabel+AutosizeHeight.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512FD6E6151928A5007D8264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512FD6FA151928A5007D8264 /* JUC_ParisTests.m in Sources */,
+				517C3DEC152A160400B26ACA /* JUCConferenceViewControllerTests.m in Sources */,
+				51EE1ED5152C506A0040C217 /* JUCEventServiceTest.m in Sources */,
+				51077CAD152F290200B65D5D /* JUCRoomTests.m in Sources */,
+				51077CB0152F2C6400B65D5D /* JUCEventTests.m in Sources */,
+				51077CB3152F2CB700B65D5D /* JUCObjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		512FD6F1151928A5007D8264 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 512FD6C6151928A5007D8264 /* JUC Paris */;
+			targetProxy = 512FD6F0151928A5007D8264 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		512FD6D4151928A5007D8264 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				512FD6D5151928A5007D8264 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		512FD6F5151928A5007D8264 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				512FD6F6151928A5007D8264 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		512FD6FB151928A5007D8264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		512FD6FC151928A5007D8264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		512FD6FE151928A5007D8264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JUC Paris/Supporting Files/JUC Paris-Prefix.pch";
+				INFOPLIST_FILE = "JUC Paris/Supporting Files/JUC Paris-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		512FD6FF151928A5007D8264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JUC Paris/Supporting Files/JUC Paris-Prefix.pch";
+				INFOPLIST_FILE = "JUC Paris/Supporting Files/JUC Paris-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		512FD701151928A5007D8264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JUC Paris.app/JUC Paris";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JUC Paris/Supporting Files/JUC Paris-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"${SRCROOT}/External/OCMock\"/**";
+				INFOPLIST_FILE = "JUC ParisTests/JUC ParisTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${SRCROOT}/External/OCMock\"/**",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"${SRCROOT}/External/OCMock/libOCMock.a\"",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		512FD702151928A5007D8264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JUC Paris.app/JUC Paris";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JUC Paris/Supporting Files/JUC Paris-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"${SRCROOT}/External/OCMock\"/**";
+				INFOPLIST_FILE = "JUC ParisTests/JUC ParisTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${SRCROOT}/External/OCMock\"/**",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"${SRCROOT}/External/OCMock/libOCMock.a\"",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		51EE1EF4152C9FBC0040C217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		51EE1EF5152C9FBC0040C217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		512FD6C1151928A5007D8264 /* Build configuration list for PBXProject "JUC Paris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512FD6FB151928A5007D8264 /* Debug */,
+				512FD6FC151928A5007D8264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		512FD6FD151928A5007D8264 /* Build configuration list for PBXNativeTarget "JUC Paris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512FD6FE151928A5007D8264 /* Debug */,
+				512FD6FF151928A5007D8264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		512FD700151928A5007D8264 /* Build configuration list for PBXNativeTarget "JUC ParisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512FD701151928A5007D8264 /* Debug */,
+				512FD702151928A5007D8264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51EE1EF3152C9FBC0040C217 /* Build configuration list for PBXAggregateTarget "AppleDoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51EE1EF4152C9FBC0040C217 /* Debug */,
+				51EE1EF5152C9FBC0040C217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 512FD6BE151928A5007D8264 /* Project object */;
+}
