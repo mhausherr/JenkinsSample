@@ -24,6 +24,8 @@
 		51077CAD152F290200B65D5D /* JUCRoomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51077CAC152F290200B65D5D /* JUCRoomTests.m */; };
 		51077CB0152F2C6400B65D5D /* JUCEventTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51077CAF152F2C6400B65D5D /* JUCEventTests.m */; };
 		51077CB3152F2CB700B65D5D /* JUCObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51077CB2152F2CB700B65D5D /* JUCObjectTests.m */; };
+		51271AFD152F417600A8B817 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 51271AFC152F417600A8B817 /* icon.png */; };
+		51271AFF152F41CF00A8B817 /* icon-retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 51271AFE152F41CF00A8B817 /* icon-retina.png */; };
 		512FD6CC151928A5007D8264 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512FD6CB151928A5007D8264 /* UIKit.framework */; };
 		512FD6CE151928A5007D8264 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512FD6CD151928A5007D8264 /* Foundation.framework */; };
 		512FD6D0151928A5007D8264 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512FD6CF151928A5007D8264 /* CoreGraphics.framework */; };
@@ -81,6 +83,8 @@
 		51077CAF152F2C6400B65D5D /* JUCEventTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUCEventTests.m; sourceTree = "<group>"; };
 		51077CB1152F2CB700B65D5D /* JUCObjectTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUCObjectTests.h; sourceTree = "<group>"; };
 		51077CB2152F2CB700B65D5D /* JUCObjectTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUCObjectTests.m; sourceTree = "<group>"; };
+		51271AFC152F417600A8B817 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../icon.png; sourceTree = "<group>"; };
+		51271AFE152F41CF00A8B817 /* icon-retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-retina.png"; path = "../../icon-retina.png"; sourceTree = "<group>"; };
 		512FD6C7151928A5007D8264 /* JUC Paris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JUC Paris.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		512FD6CB151928A5007D8264 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		512FD6CD151928A5007D8264 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -379,6 +383,8 @@
 		517C3DD7152A069900B26ACA /* Ressources */ = {
 			isa = PBXGroup;
 			children = (
+				51271AFE152F41CF00A8B817 /* icon-retina.png */,
+				51271AFC152F417600A8B817 /* icon.png */,
 				517C3DE3152A0ACB00B26ACA /* en.png */,
 				517C3DD8152A06E500B26ACA /* fr.png */,
 			);
@@ -493,6 +499,8 @@
 				517C3DA915299F4A00B26ACA /* JUCStoryboard.storyboard in Resources */,
 				517C3DD9152A06E500B26ACA /* fr.png in Resources */,
 				517C3DE4152A0ACB00B26ACA /* en.png in Resources */,
+				51271AFD152F417600A8B817 /* icon.png in Resources */,
+				51271AFF152F41CF00A8B817 /* icon-retina.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
