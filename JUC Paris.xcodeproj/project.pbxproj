@@ -63,6 +63,7 @@
 		517C3DD9152A06E500B26ACA /* fr.png in Resources */ = {isa = PBXBuildFile; fileRef = 517C3DD8152A06E500B26ACA /* fr.png */; };
 		517C3DE4152A0ACB00B26ACA /* en.png in Resources */ = {isa = PBXBuildFile; fileRef = 517C3DE3152A0ACB00B26ACA /* en.png */; };
 		517C3DEC152A160400B26ACA /* JUCConferenceViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 517C3DEB152A160400B26ACA /* JUCConferenceViewControllerTests.m */; };
+		518183B11534888300BEC9CB /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 517C3DF6152A185700B26ACA /* libOCMock.a */; };
 		51EE1ED5152C506A0040C217 /* JUCEventServiceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 51EE1ED4152C506A0040C217 /* JUCEventServiceTest.m */; };
 /* End PBXBuildFile section */
 
@@ -182,6 +183,7 @@
 				512FD6ED151928A5007D8264 /* SenTestingKit.framework in Frameworks */,
 				512FD6EE151928A5007D8264 /* UIKit.framework in Frameworks */,
 				512FD6EF151928A5007D8264 /* Foundation.framework in Frameworks */,
+				518183B11534888300BEC9CB /* libOCMock.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -698,11 +700,11 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JUC Paris/Supporting Files/JUC Paris-Prefix.pch";
-				HEADER_SEARCH_PATHS = "\"${SRCROOT}/External/OCMock\"/**";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "JUC ParisTests/JUC ParisTests-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"${SRCROOT}/External/OCMock\"/**",
+					"\"$(SRCROOT)/External/OCMock\"",
 				);
 				OTHER_LDFLAGS = (
 					"-force_load",
@@ -711,7 +713,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				USER_HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "\"${SRCROOT}/External/OCMock\"/**";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -726,11 +728,11 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JUC Paris/Supporting Files/JUC Paris-Prefix.pch";
-				HEADER_SEARCH_PATHS = "\"${SRCROOT}/External/OCMock\"/**";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "JUC ParisTests/JUC ParisTests-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"${SRCROOT}/External/OCMock\"/**",
+					"\"$(SRCROOT)/External/OCMock\"",
 				);
 				OTHER_LDFLAGS = (
 					"-force_load",
@@ -739,7 +741,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				USER_HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "\"${SRCROOT}/External/OCMock\"/**";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
